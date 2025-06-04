@@ -6,6 +6,6 @@ const server = createServer((_, res) => {
 		.end(JSON.stringify({ message: "Hello World from AWS" }));
 });
 
-server.listen(8080, () => {
-	console.log("Server is running at: http://localhost:8080");
+server.listen(80, () => {
+	console.log("Server is running at: http://localhost:80");
 });
